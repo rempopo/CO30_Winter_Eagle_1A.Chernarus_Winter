@@ -19,7 +19,6 @@ A "Eagle 1'1 Squad Leader@Eagle 1'1"		TO "kit_us_sl" KIT
 , A "Eagle 1'3 Squad Leader@Eagle 1'3"		TO "kit_us_sl" KIT
 , A "Machinegunner"				TO "kit_us_mg" KIT
 , A "Asst. Machinegunner"			TO "kit_us_amg" KIT
-, A "MG - FTL"			TO "kit_us_mgftl" KIT
 , A "Marksman"			TO "kit_us_mm" KIT
 , A "Eagle 1'6 Platoon Leader@Eagle 1'6"		TO "kit_us_pl" KIT
 , A "Platoon Sergeant"			TO "kit_us_pl" KIT
