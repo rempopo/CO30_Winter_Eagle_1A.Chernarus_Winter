@@ -43,7 +43,7 @@ PlayerConnectedEH = addMissionEventHandler ["PlayerConnected", {
  
 private _asset = [AssetLogic, "objects"] call dzn_fnc_selectRandomAsset;
 private _assetObjects = synchronizedObjects _asset;
-TGT = _assetObjects # (_assetObjects findIf { typeof _x == "CUP_O_BM21_RU" });
+TGT = _assetObjects # (_assetObjects findIf { typeof _x == "rhs_2s1_tv" });
 publicVariable "TGT";
 
 [] spawn {
@@ -55,7 +55,7 @@ publicVariable "TGT";
 	sleep 60;
 	[getPosATL Start1, getPosATL End1, 100, "FULL", "CUP_B_AH64D_DL_USA", west] call BIS_fnc_ambientFlyby;
 	waitUntil {!alive SPOT};
-	[west, "HQ"] sideChat "Eagle, this is HQ, enemy artillery is blind now. Mortar support is available, I repeat, Steelrain-1-1 is now online, out";
+	[[west, "HQ"], "Eagle, this is HQ, enemy artillery is blind now. Mortar support is available, I repeat, Steelrain-1-1 is now online, out"] remoteExec ["sideChat", 0];
 	sleep 10;
-	mortarchat sideChat "Eagle, this is Steelrain-1-1, thank you, we will be ready in few minutes, send us your coordinates, out";
+	[mortarchat, "Eagle, this is Steelrain-1-1, thank you, we will be ready in few minutes, send us your coordinates, out"] remoteExec ["sideChat", 0];
 };
