@@ -93,8 +93,8 @@ kit_us_gr = [
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
-	["<VEST ITEMS >> ",[["HandGrenade",3],["PRIMARY MAG",9],["CUP_1Rnd_HE_M203",20]]],
-	["<BACKPACK ITEMS >> ",[[NVG_NIGHT_SCOPE,1],["ACE_Clacker",1],["DemoCharge_Remote_Mag",3]]]
+	["<VEST ITEMS >> ",[["HandGrenade",3],["PRIMARY MAG",5],["CUP_1Rnd_HE_M203",10]]],
+	["<BACKPACK ITEMS >> ",[[NVG_NIGHT_SCOPE,1],["ACE_Clacker",1],["DemoCharge_Remote_Mag",3],["PRIMARY MAG",3]]]
 ];
 kit_us_ftl = [
 	["<EQUIPEMENT >>  ",US_UNI,US_VEST,"CUP_B_USMC_MOLLE_WDL",US_HEAD,"CUP_PMC_Facewrap_Winter"],
@@ -103,8 +103,8 @@ kit_us_ftl = [
 	["<HANDGUN WEAPON >>  ","CUP_hgun_M9","CUP_15Rnd_9x19_M9",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
-	["<VEST ITEMS >> ",[["SmokeShell",3],["SmokeShellGreen",1],["HandGrenade",3],["SmokeShellBlue",2],["PRIMARY MAG",5],["HANDGUN MAG",3]]],
-	["<BACKPACK ITEMS >> ",[[NVG_NIGHT_SCOPE,1],["CUP_30Rnd_556x45_Stanag_Tracer_Red",4]]]
+	["<VEST ITEMS >> ",[["SmokeShell",3],["HandGrenade",3],["SmokeShellBlue",2],["PRIMARY MAG",3],["HANDGUN MAG",3]]],
+	["<BACKPACK ITEMS >> ",[[NVG_NIGHT_SCOPE,1],["CUP_30Rnd_556x45_Stanag_Tracer_Red",4],["PRIMARY MAG",3]]]
 ];
 kit_us_r = [
 	["<EQUIPEMENT >>  ",US_UNI,US_VEST,"CUP_B_USMC_MOLLE_WDL",US_HEAD,"CUP_PMC_Facewrap_Winter"],

@@ -1,0 +1,12 @@
+"####### tSF File Sweeper Engaged #######" 
+Mission directory:     C:\Users\Кабан\Documents\Arma 3 - Other Profiles\Ka6aH\mpmissions\CO30_Winter_Eagle_1A.Chernarus_Winter\ 
+Mission fodler name:   CO30_Winter_Eagle_1A 
+Removing tSF Helpers 
+Removing DynAI Helpers 
+Removing unused tSF Modules 
+    Folder is not used: Removing AirborneSupport 
+    Folder is not used: Removing Conversations 
+    Folder is not used: Removing EditorRadioSettings 
+    Folder is not used: Removing EditorUnitBehavior 
+    Folder is not used: Removing Interactives 
+Done! 
